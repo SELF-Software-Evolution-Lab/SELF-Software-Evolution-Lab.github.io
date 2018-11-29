@@ -1,46 +1,46 @@
-## Group description.
+# Group description.
 
 En este laboratorio abordamos la pregunta: cómo hacer evolucionar y mantener fácilmente los artefactos de software que ya han sido construidos. La evolución de los sistemas de software es un proceso natural que resulta de la búsqueda de satisfacción de las necesidades de sus usuarios. Para reducir las complicaciones originadas por la evolución es vital hacer mantenimiento del software.
 
 
-## Líneas de investigación.
+# Líneas de investigación.
 
 - Vistas arquitectónicas y métricas para comprensión de software: las aplicaciones de software están sujetas a una evolución natural. La tarea de comprender su estado y evolución corresponde a más del 50% de toda la actividad de mantenimiento. La razón principal es la ausencia de abstracciones sobre las aplicaciones. En esta línea estudiamos el proceso de generar vistas y métricas a partir de artefactos de software (hechos en Java, Oracle Forms, Ruby on Rails, Epsilon) para facilitar la comprensión de la arquitectura y la toma de decisiones. 
 - Transformación de software: una vez comprendida la evolución de una aplicación de software, uno puede requerir transformarla (o refactorizarla) para mejorar su calidad o satisfacer restricciones de negocio y tecnología. En esta línea estudiamos las formas de (semi)automatizar la transformación.
 - Adaptación de arquitecturas para Internet de las Cosas (IoT): IoT cuenta con dispositivos pequeños, como sensores, que interactúan con el ambiente para recoger datos y otros dispositivos, como móviles, servidores y actuadores, que procesan dicha información para ofrecer nuevos servicios a los usuarios y causar un efecto sobre el entorno.  IoT es un área de interés del gobierno nacional (así lo revelan las convocatorias de Colciencias más recientes, e.g., 778, 816) ya que posee un gran potencial para crear modelos de negocio, de productividad y optimización de logística a partir de los datos de operación. Un sistema IoT requiere una arquitectura de software para funcionar. En esta línea estudiamos los posibles cambios que puede sufrir la arquitectura y sugerimos adaptaciones dinámicas.
 
-## Miembros
+# Miembros
 
-### Profesores
+## Profesores
 
 ### Investigadora principal
-Kelly Garcés
+- Kelly Garcés
 
 ### Co-investigadores
-Rubby Casallas
-Nicolas Cardozo
+- Rubby Casallas
+- Nicolas Cardozo
 
 ### Estudiantes doctorales
-Iván Alfonso
+- Iván Alfonso
 
 ### Estudiantes de maestría
 
 ### Modalidad investigación
-Diego Prens
-Jairo Ariza
+- Diego Prens
+- Jairo Ariza
 
 ### Modalidad profundización 
-Paula Castellanos
-Diego Prieto
-Jarvein Rivera
-José Pulgarín
-Félix Ruiz
-Armando Perea
+- Paula Castellanos
+- Diego Prieto
+- Jarvein Rivera
+- José Pulgarín
+-  Félix Ruiz
+- Armando Perea
 
 ### Estudiantes de pregrado
 
-Juan Guzmán
-Juan Barragán
+- Juan Guzmán
+- Juan Barragán
 
 
 

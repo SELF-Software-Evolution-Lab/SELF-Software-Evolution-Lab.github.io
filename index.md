@@ -20,10 +20,10 @@ En este laboratorio abordamos la pregunta: cómo hacer evolucionar y mantener f�
 - Rubby Casallas
 - Nicolas Cardozo
 
-### Estudiantes doctorales
+## Estudiantes doctorales
 - Iván Alfonso
 
-### Estudiantes de maestría
+## Estudiantes de maestría
 
 ### Modalidad investigación
 - Diego Prens

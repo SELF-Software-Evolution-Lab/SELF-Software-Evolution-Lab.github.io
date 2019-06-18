@@ -1,7 +1,7 @@
 # Architectonic views and metrics for software comprehension.
 
 
-- Software applications are subject to natural evolution. The task 
+Software applications are subject to natural evolution. The task 
 to comprehend its state and evolution, correspond to more than 50% of maintenance activities. The main reason is the absence 
 of abstractions over the applications. On this research line, we study the process to generate views and metrics from software 
 artifacts (developed in Java, Oracle Forms, Ruby on Rails, Epsilon), to facilitate architecture comprehension and decision 

@@ -21,38 +21,8 @@ On this lab we aim to resolve the following question: How to evolve and easily m
 <!--- - Adaptación de arquitecturas para Internet de las Cosas (IoT): IoT cuenta con dispositivos pequeños, como sensores, que interactúan con el ambiente para recoger datos y otros dispositivos, como móviles, servidores y actuadores, que procesan dicha información para ofrecer nuevos servicios a los usuarios y causar un efecto sobre el entorno.  IoT es un área de interés del gobierno nacional (así lo revelan las convocatorias de Colciencias más recientes, e.g., 778, 816) ya que posee un gran potencial para crear modelos de negocio, de productividad y optimización de logística a partir de los datos de operación. Un sistema IoT requiere una arquitectura de software para funcionar. En esta línea estudiamos los posibles cambios que puede sufrir la arquitectura y sugerimos adaptaciones dinámicas. -->
 
 [Members](members.md)
-# Members.
 
-## Professors.
 
-### Lead researcher.
-- Kelly Garcés
-
-### Co-researchers.
-- Rubby Casallas
-- Nicolas Cardozo
-
-## PHD candidates.
-- Iván Alfonso
-
-## Master's degree candidates
-
-### Research line (Modalidad investigación).
-- Diego Prens
-- Jairo Ariza
-
-### Modalidad profundización.
-- Paula Castellanos
-- Diego Prieto
-- Jarvein Rivera
-- José Pulgarín
-- Félix Ruiz
-- Armando Perea
-
-### Bachelor's degree candidates
-
-- Juan Guzmán
-- Juan Barragán
 
 
 

@@ -9,7 +9,9 @@ On this lab we aim to resolve the following question: How to evolve and easily m
 # Research lines.
 
 [Architectonic views and metrics for software comprehension.](architectonic.md)
+
 [Software transformation.](software.md)
+
 [Architectures adaptation for the Internet of Things(IoT).](iot.md)
 
 

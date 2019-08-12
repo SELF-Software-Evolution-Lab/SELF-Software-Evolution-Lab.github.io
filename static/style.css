@@ -2,15 +2,13 @@
 
 /* ----- Bootstrap Theme ----- */
 
-
 body {
-  background:  #ffffff url(../images/brand-bg.jpg) no-repeat center top;
+  background:  #f3e1c5 url(../images/brand-bg.jpg) no-repeat center top;
   color: #263d2c;
 }
 
 h1 {
   margin-top: 0px;
-  color: #D32323;
 }
 
 .container {
@@ -39,13 +37,13 @@ h1 {
 }
 
 .panel {
-  background: #ffffff;
+  background: #fff6e8;
   border-color: #ece4cf;
   box-shadow: 0 2px 2px #a58d65;
 }
 
 .panel-default .panel-heading {
-  background: #ffffff;
+  background: #fbf3dd;
   border-color: #ece4cf;
 }
 

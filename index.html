@@ -20,9 +20,19 @@
   </nav>
 
 	<main class="container container--mw700">
-		{% block content %} 
-    {% endblock %}
-	</main>
+		
+{% for treasure in treasures %}
+{{ treasure.name }}
+by:{{treasure.user.username}} 
+￼ 
+{% if forloop.counter|divisibleby:3 and not forloop.last%} 
+{% endif %} {% endfor %} 
+{% if user.is_authenticated %}
+Add treasure
+{% csrf_token %}
+{{ form.as_p }} 
+{% endif %} 
+		</main>
 
 	<footer class="footer container text-center" role="contentinfo">
   <img src="{% static 'images/brand-icon.png' %}" height="50" alt="">

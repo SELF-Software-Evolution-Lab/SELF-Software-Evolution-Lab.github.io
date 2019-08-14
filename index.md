@@ -18,8 +18,7 @@ making process.
 
 <!-- [Software transformation.](software.md) -->
 ## Software transformation.
-When an application software evolution is comprehended, transformation or refactoring may
-be needed to improve quality or to satisfy business or technologies constrains. On this research line, we study means to fully or partially automate the transformation.
+When an application software evolution is comprehended, transformation or refactoring may be needed to improve quality or to satisfy business or technologies constrains. On this research line, we study means to fully or partially automate the transformation.
 
 
 <!-- [Architectures adaptation for the Internet of Things(IoT).](iot.md) -->

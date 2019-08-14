@@ -3,7 +3,7 @@
 ## Professors.
 
 ### Lead researcher.
-- Kelly Garcés
+- [Kelly Garcés](https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/)
 
 ### Co-researchers.
 - Rubby Casallas
@@ -30,5 +30,3 @@
 
 - Juan Guzmán
 - Juan Barragán
-
-

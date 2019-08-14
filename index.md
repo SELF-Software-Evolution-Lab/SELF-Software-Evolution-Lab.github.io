@@ -1,3 +1,5 @@
+![Image](/static/images/brand-icon.png)
+
 # Group description.
 
 On this lab we aim to resolve the following question: How to evolve and easily maintain already builded software artifacts. Software systems evolution is a natural process, resulting from the need to satisfy the user's needs. To deal with the issues introduced by evolution, software maintenance is essential.

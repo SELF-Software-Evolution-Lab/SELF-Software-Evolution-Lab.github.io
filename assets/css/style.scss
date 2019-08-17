@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  background: #f9f7e0;
+  color: #696969;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #890411;
+}
+
+section #title p {
+  color: #696969;
+}
+
+#header {
+  display: none;
+}
+
+a {
+  color: #cb0413,
+}

@@ -1,4 +1,4 @@
-![Image](/static/images/SELF.png)
+![Image](/static/images/SELF.jpg)
 
 # Group description.
 

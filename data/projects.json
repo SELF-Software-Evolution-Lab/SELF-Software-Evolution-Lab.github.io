@@ -9,10 +9,10 @@
     "summary": "Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
     "status": "active",
     "members": [
-      0,
-      2,
-      13,
-      6
+      "ja.arizac1",
+      "ca.mendoza968",
+      "kj.garces971",
+      "n.cardozo"
     ],
     "publications": [
       {
@@ -30,10 +30,16 @@
     "summary": "ArchID is a tool for the identification and visualization of problems in software projects related to the design decisions, technologies and frameworks used in each context. It allows the detection of problematic files inside a project, according to predefined rules that must be hand-coded into queries that traverse a higher-level model representation of the source code.",
     "status": "active",
     "members": [
-      0,
-      1,
-      6,
-      5
+      "ca.mendoza968",
+      "kj.garces971",
+      "rcasalla",
+      "j.bocanegra"
+    ],
+    "publications": [
+      {
+        "name": "Mendoza, C., Garcés, K., Casallas, R., & Bocanegra, J. (2019, September). Detecting Architectural Issues During the Continuous Integration Pipeline. In 2019 ACM/IEEE 22nd International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C) (pp. 589-597). IEEE.",
+        "url": "https://ieeexplore.ieee.org/abstract/document/8904593/"
+      }
     ]
   },
   {
@@ -45,8 +51,8 @@
     "summary": "An optimization methodology is proposed for the deployment of Wireless Sensor Networks to monitor gases in underground coal mining. The methodology addresses two objectives: minimizing deployment costs and maximizing WSN lifetime. The proposed methodology has been tested using two realistic case studies regarding mines in Boyacá. The algorithm implementation produces instantaneous results for realistically sized networks, indicating that the methodology is computationally adequate.",
     "status": "active",
     "members": [
-      0,
-      4
+      "kj.garces971",
+      "id.alfonso"
     ],
     "publications": [
       {
@@ -64,8 +70,8 @@
     "summary": "Software modernization consists of transforming legacy applications into modern technologies, mainly to minimize maintenance costs. This project presents a white-box transformation approach that changes the application architecture and the technological stack without losing business value and quality attributes. The architecture for the new application can be configured considering aspects such as data access, quality attributes, and process.",
     "status": "inactive",
     "members": [
-      0,
-      1
+      "kj.garces971",
+      "rcasalla"
     ],
     "industry": [
       {
@@ -121,12 +127,8 @@
     "summary": "Since functionality is often spread in hundreds of lines of code, it is hard for the developer to understand the system, which may lead to under/overestimation of the new feature cost and rework/delays in the subsequent phases of development. In this project, we present the adaptation of the general approach to support data schema as an additional input and its instrumentation in an industrial case study where the technology is Ruby on Rails.",
     "status": "inactive",
     "members": [
-      0
-    ],
-    "industry": [
-      {
-        "name": "Jair García"
-      }
+      "kj.garces971",
+      "j.garcia100"
     ],
     "publications": [
       {
@@ -144,7 +146,7 @@
     "summary": "Currently, we are experiencing great advances in various fields of technology such as hardware and software. A clear example are reporting systems which are an essential support for companies. The approach relies on three pillars: i) a view with the results of a function point analysis that aims at facilitating planning task; ii) a structural view of the reports that allows developers to restructure them and see the migration progress status; and iii) the actual transformation from Crystal to Publisher.",
     "status": "inactive",
     "members": [
-      0
+      "kj.garces971"
     ]
   },
   {
@@ -156,8 +158,8 @@
     "summary": "In this project, we present an approach to modernize legacy applications into microservices. We propose a model-centered process to analyze and visualize the current structure and dependencies between the business layer and the data layer. Furthermore, we propose a modularization into clusters and microservices using four different diagrams.",
     "status": "inactive",
     "members": [
-      0,
-      1
+      "kj.garces971",
+      "rcasalla"
     ],
     "publications": [
       {
@@ -175,8 +177,8 @@
     "summary": "This project presents the most common bad smells made by master students from Universidad de los Andes, and compares them with those from publicly available repositories of Epsilon transformation language transformations, with the purpose of knowing whether programming style affects the incidence of smells. From the statistical analysis, we conclude that, students must be encouraged and guided to develop maintainable declarative transformations. At this point, our tool has been proved to be very useful to help improve the quality of students’ transformations.",
     "status": "inactive",
     "members": [
-      0,
-      1
+      "kj.garces971",
+      "rcasalla"
     ],
     "publications": [
       {
@@ -198,8 +200,8 @@
     "summary": "To be best of authors knowledge, an information system for sharing maintenance data able to fulfill the aforementioned challenges is not available yet.\n\nXRepo is proposed within this paper and faces three of the identified challenges through selected functionality: i) Heterogeneity: stored data is complaint with a standard format that includes the information necessary for performing PHM analysis; ii) Integration: data is uploaded to the repository through files or web services; iii) Search usability: stored data can be filtered by criteria and downloaded.",
     "status": "inactive",
     "members": [
-      0,
-      3
+      "kj.garces971",
+      "n.cardozo"
     ],
     "publications": [
       {

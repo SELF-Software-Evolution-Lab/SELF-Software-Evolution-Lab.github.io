@@ -1,11 +1,11 @@
-import React, { Fragment } from "react"
-import GithubLogo from "./img/GitHub-Mark-32px.png"
-import Image from "react-bootstrap/Image"
-import "./project.css"
-import { graphql } from "gatsby"
-import Header from "./header"
-import Demo from "./demo"
-import Container from "react-bootstrap/Container"
+import React, { Fragment } from "react";
+import GithubLogo from "./img/GitHub-Mark-32px.png";
+import Image from "react-bootstrap/Image";
+import "./project.css";
+import { graphql } from "gatsby";
+import Header from "./header";
+import Demo from "./demo";
+import Container from "react-bootstrap/Container";
 
 export default ({ data, pageContext }) => (
   <Fragment>
@@ -21,23 +21,23 @@ export default ({ data, pageContext }) => (
       <div className="mb-2">
         <span className="material-icons">people</span>
         <span className="ml-1">{pageContext.node.members.map((p, i, l) => i === l.length - 1 ?
-          (data.allMembersJson.edges.find((n, index) => index === p).node.url ?
+          (data.allMembersJson.edges.find(n => n.node.id === p).node.url ?
             <a
               className="outlink"
               key={"members" + i}
               target="_blank"
               rel="noreferrer noopener"
-              href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a>
-            : <span>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</span>) :
-          (data.allMembersJson.edges.find((n, index) => index === p).node.url ?
+              href={data.allMembersJson.edges.find(n => n.node.id === p).node.url}>{data.allMembersJson.edges.find(n => n.node.id === p).node.name}</a>
+            : <span>{data.allMembersJson.edges.find(n => n.node.id === p).node.name}</span>) :
+          (data.allMembersJson.edges.find(n => n.node.id === p).node.url ?
             <Fragment key={"members" + i}>
               <a
                 className="outlink"
                 key={"members" + i}
                 target="_blank"
                 rel="noreferrer noopener"
-                href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a>,&nbsp;
-            </Fragment> : <span>{data.allMembersJson.edges.find((n, index) => index === p).node.name},&nbsp;</span>),
+                href={data.allMembersJson.edges.find(n => n.node.id === p).node.url}>{data.allMembersJson.edges.find(n => n.node.id === p).node.name}</a>,&nbsp;
+            </Fragment> : <span>{data.allMembersJson.edges.find(n => n.node.id === p).node.name},&nbsp;</span>)
         )}
               </span>
         <br/>
@@ -47,7 +47,7 @@ export default ({ data, pageContext }) => (
             <span
               className="ml-1">{pageContext.node.industry.map((p, i, l) => i === l.length - 1 ?
               <Fragment key={"industry" + i}>{p.name}</Fragment> :
-              <Fragment key={"industry" + i}>{p.name},&nbsp;</Fragment>,
+              <Fragment key={"industry" + i}>{p.name},&nbsp;</Fragment>
             )}
               </span>
             <br/>
@@ -66,7 +66,7 @@ export default ({ data, pageContext }) => (
                 {p.name}
               </a>
               <br/>
-            </Fragment>
+            </Fragment>;
           })}
         </Fragment> : ""}
       {pageContext.node.demos ?
@@ -74,7 +74,7 @@ export default ({ data, pageContext }) => (
           <br/>
           <h6>Demos</h6>
           {pageContext.node.demos.map((p, i) => {
-            return <Demo key={"demos" + i} youtubeId={p.id}/>
+            return <Demo key={"demos" + i} youtubeId={p.id}/>;
           })}
         </Fragment> : ""}
     </Container>
@@ -88,8 +88,9 @@ export const query = graphql`
         node {
           name
           url
+          id
         }
       }
     }
   }
-`
+`;

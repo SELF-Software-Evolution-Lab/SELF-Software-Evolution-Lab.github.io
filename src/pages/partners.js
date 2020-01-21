@@ -1,10 +1,10 @@
 import React, { Fragment } from "react"
 import { graphql } from "gatsby"
 import Header from "../components/header"
-import MemberNoImage from "../components/memberNoImage"
+import Partner from "../components/partner"
 import Container from "react-bootstrap/Container"
-import CardDeck from "react-bootstrap/CardDeck"
 import "./members.css"
+import ListGroup from "react-bootstrap/ListGroup";
 
 export default ({ data }) => {
   return (
@@ -12,9 +12,9 @@ export default ({ data }) => {
       <Header/>
       <Container className="mt-3">
         <h1>Industry Partners</h1>
-        <CardDeck>
-          {data.allPartnersJson.edges.map(n => <MemberNoImage node={n.node}/>)}
-        </CardDeck>
+        <ListGroup variant="flush">
+          {data.allPartnersJson.edges.map(n => <Partner node={n.node}/>)}
+        </ListGroup>
       </Container>
     </Fragment>
   )

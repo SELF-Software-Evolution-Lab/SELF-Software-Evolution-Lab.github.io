@@ -2,13 +2,16 @@
   {
     "id": "kj.garces971",
     "name": "Kelly Garcés",
-    "url": "https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/",
+    "url": "/kelly_garces",
     "category": "professor",
     "subCategory": "Lead Researcher",
     "contact": true,
     "image": "kj.garces971.png",
     "email": "kj[dot]garces971[at]uniandes[dot]edu[dot]co",
-    "status": "active"
+    "status": "active",
+    "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget faucibus risus. Aliquam aliquet varius ipsum, at aliquam justo sollicitudin ac. Praesent rhoncus, odio ut varius aliquet, purus mi tincidunt augue, at aliquam sapien metus vel enim. Suspendisse sapien erat, tincidunt non mollis eget, placerat sed tellus. Aliquam fermentum, nulla in tincidunt condimentum, mauris elit hendrerit mauris, quis facilisis sapien orci a metus. Pellentesque sit amet arcu malesuada, porttitor odio ac, consequat diam. Nam non blandit sapien. Nulla feugiat vehicula purus, vitae vestibulum odio pulvinar ac.",
+    "title": "Associate Professor",
+    "courses": ["arquitectura", "automatizacion", "integrador", "modelaje"]
   },
   {
     "id": "rcasalla",

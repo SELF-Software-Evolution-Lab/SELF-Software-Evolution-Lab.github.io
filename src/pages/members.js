@@ -1,12 +1,12 @@
-import React, { Fragment } from "react"
-import { graphql } from "gatsby"
-import Header from "../components/header"
-import Member from "../components/member"
-import MemberNoImage from "../components/memberNoImage"
-import Container from "react-bootstrap/Container"
-import CardDeck from "react-bootstrap/CardDeck"
-import "./members.css"
-import ListGroup from "react-bootstrap/ListGroup"
+import React, { Fragment } from "react";
+import { graphql } from "gatsby";
+import Header from "../components/header";
+import Member from "../components/member";
+import MemberNoImage from "../components/memberNoImage";
+import Container from "react-bootstrap/Container";
+import CardDeck from "react-bootstrap/CardDeck";
+import "./members.css";
+import ListGroup from "react-bootstrap/ListGroup";
 
 export default ({ data }) => {
   return (
@@ -17,8 +17,8 @@ export default ({ data }) => {
         <CardDeck>
           {data.allMembersJson.edges.map(n => {
             if (n.node.category === "professor")
-              return <Member key={n.node.name} node={n.node}/>
-            return ""
+              return <Member key={n.node.name} node={n.node}/>;
+            return "";
           })}
         </CardDeck>
         {data.allMembersJson.edges.find(n => n.node.category === "phd") ?
@@ -27,8 +27,8 @@ export default ({ data }) => {
             <ListGroup variant="flush">
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "phd")
-                  return <MemberNoImage key={n.node.name} node={n.node}/>
-                return ""
+                  return <MemberNoImage key={n.node.name} node={n.node}/>;
+                return "";
               })}
             </ListGroup>
           </Fragment> : ""}
@@ -38,8 +38,8 @@ export default ({ data }) => {
             <ListGroup variant="flush">
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "msc")
-                  return <MemberNoImage key={n.node.name} node={n.node}/>
-                return ""
+                  return <MemberNoImage key={n.node.name} node={n.node}/>;
+                return "";
               })}
             </ListGroup>
           </Fragment> : ""}
@@ -49,14 +49,14 @@ export default ({ data }) => {
             <ListGroup variant="flush">
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "bsc")
-                  return <MemberNoImage key={n.node.name} node={n.node}/>
-                return ""
+                  return <MemberNoImage key={n.node.name} node={n.node}/>;
+                return "";
               })}
             </ListGroup>
           </Fragment> : ""}
       </Container>
     </Fragment>
-  )
+  );
 }
 
 export const query = graphql`
@@ -74,4 +74,4 @@ export const query = graphql`
     }
   }
 }
-  `
+  `;

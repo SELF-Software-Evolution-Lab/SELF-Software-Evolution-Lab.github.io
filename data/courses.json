@@ -1,0 +1,22 @@
+[
+  {
+    "id": "arquitectura",
+    "name": "Arquitectura y Diseño de Software (Software Architecture and Design)",
+    "url": "https://cursos.virtual.uniandes.edu.co/isis2503/"
+  },
+  {
+    "id": "automatizacion",
+    "name": "Mejoramiento de la Productividad: Automatizacion (Productivity Improvement: Automation)",
+    "url": "https://cursos.virtual.uniandes.edu.co/miso4202/"
+  },
+  {
+    "id": "integrador",
+    "name": "Proyecto Integrador",
+    "url": "https://cursos.virtual.uniandes.edu.co/miso4301/"
+  },
+  {
+    "id": "modelaje",
+    "name": "Nivelatorio Modelaje de Software",
+    "url": "https://cursos.virtual.uniandes.edu.co/miso4000/"
+  }
+]

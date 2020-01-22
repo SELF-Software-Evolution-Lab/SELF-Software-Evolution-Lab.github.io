@@ -24,7 +24,7 @@ export default ({ data }) => (
 
 export const query = graphql`
   query Contact {
-  membersJson(category: {eq: "professor"}, contact: {eq: true}) {
+  membersJson(category: {eq: "discProfessor"}, contact: {eq: true}) {
     name
     url
     email

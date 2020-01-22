@@ -32,14 +32,6 @@ export default ({ data }) => (
       </Row>
       <Row className="mt-5">
         <Col md={3} xs={12}>
-          <h3>Projects</h3>
-        </Col>
-        <Col md={9} xs={12}>
-          <a className="outlink" target="_blank" href="/active_projects">Go to Ongoing Projects</a>
-        </Col>
-      </Row>
-      <Row className="mt-5">
-        <Col md={3} xs={12}>
           <h3>Teaching</h3>
         </Col>
         <Col md={9} xs={12}>

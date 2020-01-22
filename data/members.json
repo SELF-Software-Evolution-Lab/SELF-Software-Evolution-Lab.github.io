@@ -3,7 +3,7 @@
     "id": "kj.garces971",
     "name": "Kelly Garcés",
     "url": "/kelly_garces",
-    "category": "professor",
+    "category": "discProfessor",
     "subCategory": "Lead Researcher",
     "contact": true,
     "image": "kj.garces971.png",
@@ -17,7 +17,7 @@
     "id": "rcasalla",
     "name": "Rubby Casallas",
     "url": "https://profesores.virtual.uniandes.edu.co/rcasalla/es/inicio/",
-    "category": "professor",
+    "category": "discProfessor",
     "subCategory": "Co-researcher",
     "image": "RubbyCasallas.png",
     "status": "active"
@@ -26,7 +26,7 @@
     "id": "n.cardozo",
     "name": "Nicolas Cardozo",
     "url": "https://profesores.virtual.uniandes.edu.co/ncardozo/es/inicio/",
-    "category": "professor",
+    "category": "discProfessor",
     "subCategory": "Co-researcher",
     "status": "active",
     "image": "n.cardozo2.jpg"
@@ -49,7 +49,7 @@
   {
     "id": "j.bocanegra",
     "name": "José Bocanegra",
-    "category": "phd",
+    "category": "postdoc",
     "status": "active"
   },
   {

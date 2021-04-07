@@ -74,7 +74,7 @@ export default ({ data, pageContext }) => (
           <br/>
           <h6>Demos</h6>
           {pageContext.node.demos.map((p, i) => {
-            return <Demo key={"demos" + i} youtubeId={p.id}/>;
+            return <Demo key={"demos" + i} id={p.id} type={p.type}/>;
           })}
         </Fragment> : ""}
     </Container>

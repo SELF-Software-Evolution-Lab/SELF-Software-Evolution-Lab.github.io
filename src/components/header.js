@@ -17,8 +17,8 @@ export default () => (
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/research">Research</Nav.Link>
           <NavDropdown title="Projects" id="projects">
-            <NavDropdown.Item href="/active_projects">Active Projects</NavDropdown.Item>
-            <NavDropdown.Item href="/past_projects">Past Projects</NavDropdown.Item>
+            <NavDropdown.Item href="/ongoing_projects">Ongoing Projects</NavDropdown.Item>
+            <NavDropdown.Item href="/finished_projects">Finished Projects</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="People" id="people">
             <NavDropdown.Item href="/members">Active Members</NavDropdown.Item>

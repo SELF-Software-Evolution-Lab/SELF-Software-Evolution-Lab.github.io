@@ -10,7 +10,7 @@ export default ({ data }) => {
     <Fragment>
       <Header/>
       <Container className="mt-3">
-        <h1>Past Projects</h1>
+        <h1>Finished Projects</h1>
         <Card>
           <Fragment>
             {data.allProjectsJson.edges.map((n, i) =>

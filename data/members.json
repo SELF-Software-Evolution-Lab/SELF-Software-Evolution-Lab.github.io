@@ -9,7 +9,7 @@
     "image": "kj.garces971.png",
     "email": "kj[dot]garces971[at]uniandes[dot]edu[dot]co",
     "status": "active",
-    "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget faucibus risus. Aliquam aliquet varius ipsum, at aliquam justo sollicitudin ac. Praesent rhoncus, odio ut varius aliquet, purus mi tincidunt augue, at aliquam sapien metus vel enim. Suspendisse sapien erat, tincidunt non mollis eget, placerat sed tellus. Aliquam fermentum, nulla in tincidunt condimentum, mauris elit hendrerit mauris, quis facilisis sapien orci a metus. Pellentesque sit amet arcu malesuada, porttitor odio ac, consequat diam. Nam non blandit sapien. Nulla feugiat vehicula purus, vitae vestibulum odio pulvinar ac.",
+    "biography": "Kelly is associate professor of the Department of Systems and Computing Engineering at the Universidad de los Andes (Bogota, Colombia). Prior to this, she was an R&D engineer and software engineer at Netfective Technology . She received her Ph.D. in September 2010 from the Université de Nantes. In 2011, she was a postdoctoral fellow at the INRIA laboratory. She has participated in research and development projects (proprietary or open source) since 2005, financed with private and public funds. Her research interests are software architecture, evolution and maintenance of complex software systems (e.g. legacy applications, IoT systems, web transactional systems, microservice-based applications, etc.).",
     "title": "Associate Professor",
     "courses": ["arquitectura", "automatizacion", "integrador", "modelaje"]
   },
@@ -57,42 +57,35 @@
     "name": "Camilo Mendoza",
     "category": "msc",
     "subCategory": "research",
-    "status": "active"
+    "status": "inactive"
   },
-  {
-    "id": "wa.rubio",
-    "name": "Wilmer Rubio",
-    "category": "msc",
-    "subCategory": "research",
-    "status": "active"
-  },
-  {
+    {
     "id": "nr.robles",
-    "name": "Nicolas Robles",
+    "name": "Nicolás Robles",
     "category": "msc",
     "subCategory": "research",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "id": "d.althviz10",
     "name": "Daniel Althviz",
     "category": "msc",
     "subCategory": "research",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "id": "e.reyesm",
     "name": "Esteban Reyes",
-    "category": "msc",
+    "category": "bsc",
     "subCategory": "research",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "id": "af.leon",
     "name": "Andres Leon",
-    "category": "msc",
+    "category": "bsc",
     "subCategory": "research",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "id": "da.prens",

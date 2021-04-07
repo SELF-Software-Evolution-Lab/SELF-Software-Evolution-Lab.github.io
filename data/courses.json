@@ -1,22 +1,22 @@
 [
   {
     "id": "arquitectura",
-    "name": "Arquitectura y Diseño de Software (Software Architecture and Design)",
+    "name": "Arquitectura y Diseño de Software (Software Architecture and Design, Bachelor degree)",
     "url": "https://cursos.virtual.uniandes.edu.co/isis2503/"
   },
   {
     "id": "automatizacion",
-    "name": "Mejoramiento de la Productividad: Automatizacion (Productivity Improvement: Automation)",
+    "name": "Mejoramiento de la Productividad: Automatizacion (Productivity Improvement: Automation, Master's degree in Software Engineering)",
     "url": "https://cursos.virtual.uniandes.edu.co/miso4202/"
   },
   {
     "id": "integrador",
-    "name": "Proyecto Integrador",
+    "name": "Proyecto Integrador (Capstone project, Master's degree in Software Engineering)",
     "url": "https://cursos.virtual.uniandes.edu.co/miso4301/"
   },
   {
     "id": "modelaje",
-    "name": "Nivelatorio Modelaje de Software",
+    "name": "Nivelatorio Modelaje de Software (Software Modeling, Master's degree in Software Engineering)",
     "url": "https://cursos.virtual.uniandes.edu.co/miso4000/"
   }
 ]
